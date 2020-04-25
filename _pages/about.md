@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,61 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am (Full) Professor at the Department of Computing, Macquarie University, Sydney, Australia. I am Chief Exacutive and Chief Scientist of the Optus Macquarie University Cyber Security Hub. I am also Group Leader of the Information Security and Privacy Research Group at CSIRO Data61, Australia since December 2015.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+December 2015 – present: Group Leader of the Information Security and Privacy Research Group at CSIRO Data61, Australia.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+February 2014-December 2015 : Research Leader at the Mobile Systems Research Group (MSRG) NICTA, Australia.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Feb. 2012-present : Principal Researcher at the Network Research Group NICTA, Australia.
+May 2013-present : Visiting Professor at ICT-China Academy of Science (CAS), Beijing China.
+2008-2013: Research Scientist at PLANETE (Privatics) team, INRIA Rhone-Alpes, France.
+2007-2008 Post-Doctoral researcher at the Research Unit in Networking (RUN) at the University of liege, Belgium.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<title>Research<\title>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+I am spearheading Data61’s R&D activities in privacy-preserving technologies with a focus on private date sharing, Information security and Web and mobile security. Before that, at INRIA, he co-invented the technology behind geolocalisation of malicious botnet motherhood servers and pioneered research in the security of internet coordinate systems. I have published over 200 peer-reviewed papers repeatedly in top journals and conferences, receiving many prestigious awards.
 
-**Markdown generator**
+Our main research goals are:
+Build data and information sharing platforms enabling privacy-preserving data sharing and trustworthy cyber defence collaboration.
+Design and construct resilient and reliable software systems to enable defence mechanisms in distributed and potentially hostile environments.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+Design and build usable and human-centric security technologies to change humans from the weakest link of the chain into a first line of active defence.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Quantify and understand threats and cyber risks including socio-economics and financial risks.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Design policies, governance and decision-making platforms to investigate regulation-compliance and facilitate cyber security mechanisms embedding within organisations.
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+<title>Current Activities<\title>
+
+
+Associate Editor of ACM Transactions on Modeling and Performance Evaluation of Computing Systems (ACM ToMPECS)
+
+Editorial Board member of Journal of Privacy Enhancing Technologies (PoPET).
+
+General Chair of PAM 2017.
+
+Guest Editor for the IEEE Internet Computing on Small Wearable Internet 2015
+
+TPC Member of PETS 2020, PPML19, IEEE ICNP 2019, TMA 2019, IMC 2017, ACM CoNEXT 2017, ACM CoNEXT 2016, PETS 2016, IEEE ICC 2016, IFIP TMA 2016, SIGCOMM AINTEC 2016, ACM CoNEXT 2015, ACM IMC 2015, WWW 2015, IEEE MASCOTS 2015, PETS 2015, IFIP TMA 2015, HotPlanet 2015.
+
+TPC co-chair of CoNext 2015 Student Workshop.
+
+Some previous community services : 
+
+TPC Co-chair of ACM Mobicom SPME (Security and Privacy in Mobile Environment) workshop 2014,
+
+TPC co-Chair of ACM SIGMETRICS PADE workshop 2012, Co-Chair of IEEE LCN PADE 2013-2014,
+
+ACM CoNEXT 2014, PETS 2014, IEEE HPCC 2014, ACM HotPlanet 2014, SecureComm 2013-2014, SESOC 2014.
+
+ACM CoNEXT travel Grant chair.
+
+Internet Science 2013, Internet, Interdisciplinarity & Innovation (In3 2013), Eurosys Workshop on Measurement, Privacy, and Mobility (MPM) 2013 and 2012, Colloquium on IT Security, Cyber Forensics and Combatting Cybercrime 2011.
+
+Panelist in IEEE CCW 2012, Panelist in the Colloquium on IT Security, Cyber Forensics and Combatting Cybercrime 2011.
+
+Chair of the Panel “Cyber Security Versus Online Privacy”, Sydney, November 2013.
+
+ 
